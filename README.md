@@ -2,7 +2,7 @@
 
 A native SwiftUI iOS app. The user imports an `.ipa`, the app statically analyzes it on-device
 (unzip, Info.plist / ATS config, framework inventory, binary strings, Mach-O flags), and a
-Supabase edge function maps the findings to the **OWASP Mobile Top 10 (2024)** using Claude.
+Supabase edge function maps the findings to the **OWASP Mobile Top 10 (2024)** using Cursor.
 The graded report is shown in-app and can be **downloaded as a PDF**.
 
 ## What's here
