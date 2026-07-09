@@ -19,7 +19,7 @@ App/                     SwiftUI source (build in Xcode)
   PDFReport.swift        HTML -> PDF via UIPrintPageRenderer
   Theme.swift            colors
 supabase/
-  functions/analyze-ipa/index.ts   edge function (Claude, key stays server-side)
+  functions/analyze-ipa/index.ts   edge function (, key stays server-side)
   schema.sql                       optional scans table + RLS
 ```
 
