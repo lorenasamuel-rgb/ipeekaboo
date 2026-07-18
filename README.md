@@ -1,5 +1,7 @@
 # MobileGuard — OWASP Mobile Top 10 iOS Scanner
 
+**Live web preview:** [https://lorenasamuel-rgb.github.io/ipeekaboo/](https://lorenasamuel-rgb.github.io/ipeekaboo/)
+
 A native SwiftUI iOS app. The user imports an `.ipa`, the app statically analyzes it on-device
 (unzip, Info.plist / ATS config, framework inventory, binary strings, Mach-O flags), and a
 Supabase edge function maps the findings to the **OWASP Mobile Top 10 (2024)** using Cursor.
