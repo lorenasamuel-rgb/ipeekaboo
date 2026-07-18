@@ -1,6 +1,9 @@
 # MobileGuard — OWASP Mobile Top 10 iOS Scanner
 
-**Live web preview:** [https://lorenasamuel-rgb.github.io/ipeekaboo/](https://lorenasamuel-rgb.github.io/ipeekaboo/)
+**Live web preview:** open [`docs/index.html`](docs/index.html) (interactive phone mock of the app).
+
+> After enabling **GitHub Pages** (Settings → Pages → Deploy from branch → `/docs`), the public URL will be:
+> https://lorenasamuel-rgb.github.io/ipeekaboo/
 
 A native SwiftUI iOS app. The user imports an `.ipa`, the app statically analyzes it on-device
 (unzip, Info.plist / ATS config, framework inventory, binary strings, Mach-O flags), and a
