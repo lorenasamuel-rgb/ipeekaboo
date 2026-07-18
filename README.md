@@ -1,5 +1,16 @@
 # MobileGuard — OWASP Mobile Top 10 iOS Scanner
 
+**See the app (phone-friendly):** enable GitHub Pages once, then open:
+https://lorenasamuel-rgb.github.io/ipeekaboo/
+
+**How to enable (≈30 seconds on phone or laptop):**
+1. Open https://github.com/lorenasamuel-rgb/ipeekaboo/settings/pages
+2. Under **Build and deployment** → Source: **Deploy from a branch**
+3. Branch: `main` (or `cursor/web-demo-preview-a3d6` until the PR merges) → folder **`/docs`** → **Save**
+4. Wait ~1 minute, then open https://lorenasamuel-rgb.github.io/ipeekaboo/
+
+> Note: CDN raw links often open as plain text on phones. GitHub Pages is required for a real webpage.
+
 A native SwiftUI iOS app. The user imports an `.ipa`, the app statically analyzes it on-device
 (unzip, Info.plist / ATS config, framework inventory, binary strings, Mach-O flags), and a
 Supabase edge function maps the findings to the **OWASP Mobile Top 10 (2024)** using Cursor.
